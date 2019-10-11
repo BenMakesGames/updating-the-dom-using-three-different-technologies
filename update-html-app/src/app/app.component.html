@@ -1,0 +1,17 @@
+<header>Welcome, {{ gameState.playerName }}.</header>
+
+<p>I dunno. This is the game. It's great.</p>
+
+<h4>{{ gameState.playerName }}'s Stats</h4>
+<dl>
+  <dt>Strength</dt>
+  <dd>{{ gameState.playerStrength }}</dd>
+  <dt>Intelligence</dt>
+  <dd>11</dd>
+  <dt>Charisma</dt>
+  <dd>7</dd>
+</dl>
+
+<p><button (click)="doDrinkStrengthPotion()">Drink a Strength Potion</button></p>
+
+<footer>Powered by Angular.</footer>
